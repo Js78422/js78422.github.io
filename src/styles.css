@@ -16,7 +16,7 @@ html {
     padding: 15px;
   }
   
-  h4 {
+  h3, h4 {
     color: #595959;
     margin: 0;
     padding: 10px;
@@ -57,4 +57,17 @@ html {
     max-width: 700px;
     background-color: white;
     display: none;
+  }
+
+  .qrcode {
+    background-color: #006FFF;
+    transition: 0.3s all ease;
+    color: #FFF;
+    font-size: 18px;
+    padding: 15px 40px;
+    text-align: center;
+  }
+
+  .qrcode:hover {
+      background-color: #223094;
   }
